@@ -7,13 +7,13 @@
       }
     },
     "workspace": {
-      "file_path": "/Workspace/Users/vinayakrulzdworld@gmail.com/.bundle/assetbundleslearn/dev/files"
+      "file_path": "/Workspace/Users/vinayakrulzdworld@gmail.com/.bundle/asset-bundles/dev/files"
     },
     "resources": {
       "jobs": {
-        "devjob": {
-          "id": "684843972537595",
-          "relative_path": "resources/jobs/devjobs.yml"
+        "dataloader": {
+          "id": "46038902348751",
+          "relative_path": "resources/jobs/dataloader.yml"
         }
       }
     }
