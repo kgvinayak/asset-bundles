@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "git": {
+        "bundle_root_path": "."
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/vinayakrulzdworld@gmail.com/.bundle/assetbundleslearn/dev/files"
+    },
+    "resources": {
+      "jobs": {
+        "devjob": {
+          "id": "684843972537595",
+          "relative_path": "resources/jobs/devjobs.yml"
+        }
+      }
+    }
+  }
+}
