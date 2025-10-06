@@ -1,0 +1,16 @@
+resources:
+  jobs:
+    dataloader:
+      name: dataloaderjob
+      tasks:
+        - task_key: Execute_Sample
+          notebook_task:
+            notebook_path: ../../src/dataloader.ipynb
+            source: WORKSPACE
+            base_parameters:
+              catalog: ${var.catalog}
+              schema: ${var.schema}
+              tabl: ${var.tabl}
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED

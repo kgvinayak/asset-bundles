@@ -1,11 +1,13 @@
 # This is a Databricks asset bundle definition for assetbundleslearn.
 # See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.
 bundle:
-  name: asset-bundles
-  uuid: 5470c2ef-914a-4bee-975b-2d85b3543cd1
+  name: assetbundleslearn
 
 include:
   - resources/*.yml
-  - resources/*/*.yml
+  - resources/jobs/*.yml
   - targets/*.yml
 
+sync:
+    include:
+      - src/dataloader.ipynb

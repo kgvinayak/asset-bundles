@@ -1,0 +1,7 @@
+variables:
+  catalog:
+    default: "assetbundleslearn"
+  schema: 
+    default: "schema1"
+  tabl: 
+    default: "department"
